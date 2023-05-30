@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-black: #1E1E24;
+    --cor-white: #FDFFFC;
+    --cor-brow: #736F4E;
+    --cor-orange: #D17A22;
+    --cor-green: #78BC61;
+
+    --font-titulo:'Bebas Neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ;
+    --font-texto:'Noto Serif',Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: var(--font-texto);
+}
+
+main{
+    background-color: var(--cor-orange);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-titulo);
+    padding: 20px 0;
+    background-color: var(--cor-black);
+    color: var(--cor-white);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    align-items: center;
+}
+
+.container h1{
+    font: normal 2.3em var(--font-titulo);
+}
+
+header li{
+    display: inline;
+    margin-left: 10px;
+}
+
+header a{ 
+    text-decoration: none;
+    color: var(--cor-white);
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1280px;
+    margin: 20px 0;
+}
+
+.primeiro h2, .segundo h2{
+    color: var(--cor-white);
+    font: normal 2em var(--font-titulo);
+}
+
+.primeiro > img{
+    width: 60%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.233);
+}
+
+.primeiro p{
+    background-color: var(--cor-white);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.233);
+}
+
+.segundo{
+    display: block;
+    width: 1280px;
+    margin-bottom: 10px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens img{
+    width: 30%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.233);
+}
+
+.segundo p{
+    background-color: var(--cor-white);
+    padding: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--cor-black);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
