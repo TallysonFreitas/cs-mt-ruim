@@ -96,6 +96,17 @@ section{
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.233);
 }
 
+.primeiro .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeiro >  div img{
+    width: 48px;
+    margin: 20px;
+}
+
 .segundo{
     display: block;
     width: 1280px;
@@ -126,4 +137,52 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info h2, .info h3{
+    display: block;
+    font: normal 1.8em var(--font-titulo);
+    color: var(--cor-white);
+}
+
+.info{
+    width: 1280px;
+}
+
+.espacos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info textarea{
+    resize: none;
+}
+
+.blocos{
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.blocos form{
+    display: flex;
+    flex-direction: column;
+}
+form input,form textarea{
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.blocos h3{
+    margin-bottom: 15px;
+}
+
+.blocos img{
+    width: 52px;
+    margin: 0 5px;
+}
+
+.blocos p{
+    color: var(--cor-white);
+    font: bold 0.8em var(--font-texto);
 }
