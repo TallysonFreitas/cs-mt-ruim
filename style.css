@@ -147,6 +147,7 @@ footer{
 
 .info{
     width: 1280px;
+    margin-bottom: 20px;
 }
 
 .espacos{
@@ -171,6 +172,22 @@ footer{
 form input,form textarea{
     padding: 8px;
     margin-bottom: 4px;
+}
+
+form input:focus, form textarea:focus{
+    outline-color: orange;
+}
+
+form button{
+    padding: 15px;
+    color: white;
+    background-color: var(--cor-black);
+    border: none;
+    font: normal 1.3em var(--font-titulo);
+}
+
+form button:hover{
+    background-color: rgb(20, 20, 20);
 }
 
 .blocos h3{
